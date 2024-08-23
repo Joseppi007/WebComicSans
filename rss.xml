@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>WebComicSans</title>
+    <link>https://roseserver.student.rit.edu/webcomic/</link>
+    <description>I started making a second web comic on 2024, Aug. 22.</description>
+    <language>en</language>
+    <pubDate>Thu, 22 Aug 2024 23:22:31 -0500</pubDate>
+    <item>
+      <title>Page zero</title>
+      <link>https://roseserver.student.rit.edu/webcomic/Pages/0.html</link>
+      <description>The first page of the web comic.</description>
+      <pubDate>Thu, 22 Aug 2024 23:22:31 -0500</pubDate>
+      <guid>https://roseserver.student.rit.edu/webcomic/Pages/0.html</guid>
+    </item>
+    <item>
+      <title>Page one</title>
+      <link>https://roseserver.student.rit.edu/webcomic/Pages/1.html</link>
+      <description>The first real page of the web comic.</description>
+      <pubDate>Thu, 23 Aug 2024 00:21:30 -0500</pubDate>
+      <guid>https://roseserver.student.rit.edu/webcomic/Pages/1.html</guid>
+    </item>
+  </channel>
+</rss>

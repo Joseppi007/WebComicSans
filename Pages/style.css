@@ -9,3 +9,22 @@ a {
     color: #0ff;
     font-size: 1em;
 }
+@keyframes rainbow {
+    0%    { color: hsl(0, 100%, 41%); }
+    10%   { color: hsl(36, 100%, 40%); }
+    20%   { color: hsl(72, 100%, 42%); }
+    30%   { color: hsl(108, 100%, 43%); }
+    40%   { color: hsl(144, 100%, 44%); }
+    50%   { color: hsl(180, 100%, 41%); }
+    60%   { color: hsl(216, 100%, 47%); }
+    70%   { color: hsl(252, 100%, 60%); }
+    80%   { color: hsl(288, 100%, 38%); }
+    90%   { color: hsl(324, 100%, 38%); }
+    100%  { color: hsl(360, 100%, 41%); }
+}
+.rainbow span {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: rainbow;
+    animation-timing-function: linear;
+}
