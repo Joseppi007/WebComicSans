@@ -11,11 +11,17 @@ function forChildren (domElem, funcTextLeaf, funcStem) {
 
 function characteriseTextAndCopy (domElem) {
     let storage = domElem.cloneNode();
+    let x = 0;
+    let y = 0;
     Array.from(storage.childNodes).forEach((e)=>{e.remove();});
     Array.from(domElem.childNodes).forEach((e)=>{
 	if (e.nodeName == '#text') {
 	    Array.from(e.data).forEach(letter=>{
 		let span = document.createElement('span');
+		span.dataset['x'] = x;
+		span.dataset['y'] = y;
+		x++;
+		if (letter == '\n') { x=0; y++; }
 		span.appendChild(document.createTextNode(letter));
 		storage.appendChild(span);
 	    });
@@ -35,8 +41,8 @@ function characteriseText (domElem) {
 Array.from(document.getElementsByClassName('rainbow')).forEach(r=>{
     characteriseText(r);
     forChildren(r, (e)=>{}, (e)=>{
-	let d = Math.random()*4 + 3;
+	let d = 4;
 	e.style.animationDuration = d+'s';
-	e.style.animationDelay = (Math.random()*(-d))+'s';
+	e.style.animationDelay = ((((Number(e.dataset['x'])+Number(e.dataset['y']))*0.1)%1-1)*d)+'s';
     });
 });
