@@ -4,20 +4,26 @@
     <link>https://roseserver.student.rit.edu/webcomic/</link>
     <description>I started making a second web comic on 2024, Aug. 22.</description>
     <language>en</language>
-    <pubDate>Thu, 22 Aug 2024 23:22:31 -0500</pubDate>
+    <pubDate>Fri, 22 Aug 2024 23:22:31 -0500</pubDate>
     <item>
       <title>Page zero</title>
       <link>https://roseserver.student.rit.edu/webcomic/Pages/0.html</link>
       <description>The first page of the web comic.</description>
-      <pubDate>Thu, 22 Aug 2024 23:22:31 -0500</pubDate>
+      <pubDate>Fri, 22 Aug 2024 23:22:31 -0500</pubDate>
       <guid>https://roseserver.student.rit.edu/webcomic/Pages/0.html</guid>
     </item>
     <item>
       <title>Page one</title>
       <link>https://roseserver.student.rit.edu/webcomic/Pages/1.html</link>
       <description>The first real page of the web comic.</description>
-      <pubDate>Thu, 23 Aug 2024 00:21:30 -0500</pubDate>
+      <pubDate>Fri, 23 Aug 2024 00:21:30 -0500</pubDate>
       <guid>https://roseserver.student.rit.edu/webcomic/Pages/1.html</guid>
+    </item><item>
+      <title>Page two</title>
+      <link>https://roseserver.student.rit.edu/webcomic/Pages/2.html</link>
+      <description>The third page of the web comic.</description>
+      <pubDate>Sat, 24 Aug 2024 20:22:07 -0500</pubDate>
+      <guid>https://roseserver.student.rit.edu/webcomic/Pages/2.html</guid>
     </item>
   </channel>
 </rss>
