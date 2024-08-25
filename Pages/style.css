@@ -28,3 +28,18 @@ a {
     animation-name: rainbow;
     animation-timing-function: linear;
 }
+@keyframes bloo {
+    0%    { color: hsl(240, 100%, 75%); background-color: hsla(240, 100%, 90%, 0.0); }
+    30%   { color: hsl(240, 100%, 75%); background-color: hsla(240, 100%, 90%, 0.0); }
+    40%   { color: hsl(300, 35%, 70%); background-color: hsla(300, 35%, 85%, 0.1); }
+    50%   { color: hsl(240, 100%, 75%); background-color: hsla(240, 100%, 90%, 0.0); }
+    80%   { color: hsl(240, 100%, 75%); background-color: hsla(240, 100%, 90%, 0.0); }
+    90%   { color: hsl(180, 35%, 70%); background-color: hsla(180, 35%, 85%, 0.1); }
+    100%  { color: hsl(240, 100%, 75%); background-color: hsla(240, 100%, 90%, 0.0); }
+}
+.bloo span {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bloo;
+    animation-timing-function: linear;
+}
